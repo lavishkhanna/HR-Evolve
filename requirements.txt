@@ -2,3 +2,6 @@ streamlit
 hugchat
 streamlit-chat
 streamlit-extras
+python-docx
+scikit-learn
+docx
