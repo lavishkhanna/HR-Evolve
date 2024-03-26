@@ -34,5 +34,3 @@ def run():
             st.error("An error occurred:", e)
     else:
         st.info("Upload both a job description and a resume to proceed.")
-
-

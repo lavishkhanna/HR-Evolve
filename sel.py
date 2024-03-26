@@ -13,9 +13,10 @@ selected_parameter = st.sidebar.selectbox("Select Parameter:", nav_options)
 # Display content based on selected parameter (replace with your actual content)
 if selected_parameter == "Job Description":
     st.write("Job Description Content")
-    run()
+    
 elif selected_parameter == "ATS (Applicant Tracking System)":
     st.write("ATS Information")
+    run()
 elif selected_parameter == "Management":
     st.write("Management Skills Evaluation")
 else:
