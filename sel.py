@@ -1,7 +1,7 @@
 import streamlit as st
 
-from ATS import run
-
+from ATS import run as ats_run
+from main_classes import run as main_classes_run
 
 # Navigation options
 nav_options = ["Job Description", "ATS (Applicant Tracking System)", "Management"]
@@ -16,9 +16,10 @@ if selected_parameter == "Job Description":
     
 elif selected_parameter == "ATS (Applicant Tracking System)":
     st.write("ATS Information")
-    run()
+    ats_run()
 elif selected_parameter == "Management":
     st.write("Management Skills Evaluation in development")
+    main_classes_run()
 else:
     st.write("Please select a parameter from the sidebar.")
 
